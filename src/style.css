@@ -1,0 +1,58 @@
+/* stylelint-disable no-descending-specificity */
+/* stylelint-disable selector-class-pattern */
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.block-editor-block-list__layout.is-root-container > .wp-container-7 {
+  max-width: unset !important;
+}
+
+.wp-container-7 > .latest-posts-block {
+  max-width: unset !important;
+}
+
+.latest-posts-block {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+}
+
+.latest-posts-block.has-1-columns .latest-post {
+  width: calc(100% / 1 - 20px);
+}
+
+.latest-posts-block.has-2-columns .latest-post {
+  width: calc(100% / 2 - 20px);
+}
+
+.latest-posts-block.has-3-columns .latest-post {
+  width: calc(100% / 3 - 20px);
+}
+
+.latest-posts-block.has-4-columns .latest-post {
+  width: calc(100% / 4 - 20px);
+}
+
+.latest-posts-block.has-5-columns .latest-post {
+  width: calc(100% / 5 - 20px);
+}
+
+.latest-posts-block.has-6-columns .latest-post {
+  width: calc(100% / 6 - 20px);
+}
+/*# sourceMappingURL=style.css.map */
