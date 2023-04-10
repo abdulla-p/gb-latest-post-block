@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name:       Example Dynamic Block
- * Description:       Example dynamic block written with ESNext standard and JSX support – build step required.
+ * Plugin Name:       Dynamic Block
+ * Description:       Dynamic block written with ESNext standard and JSX support – build step required.
  * Requires at least: 5.7
  * Requires PHP:      7.0
  * Version:           0.1.0
